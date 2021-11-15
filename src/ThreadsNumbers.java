@@ -22,7 +22,7 @@ public class ThreadsNumbers extends Thread {
                         e.printStackTrace();
                     }
                     double randomOperation;
-                    randomOperation = Math.random() * 3;
+                    randomOperation = Math.random() * 4;
                     int operationInt = (int) randomOperation;
                     switch (operationInt) {
                         case 0 -> {
@@ -71,7 +71,7 @@ public class ThreadsNumbers extends Thread {
                                 result = first / second;
                                 System.out.print(result);
                             } catch (ArithmeticException e) {
-                                System.out.print("Yoy can not divide by zero");
+                                System.out.print("You can not divide by zero");
                             }
 
                         }
